@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.displaytask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    max-width: max-content;
+}
+
+.checkcomplete {
+    margin-top: 30px;
+}
+
+.donetask{
+    text-decoration: line-through;
+    border:none;
+    background-color: white;
+}
+
+.noedit{
+    border: none;
+}
+
+.edit{
+        border: 1px solid black;
+        margin-right: 20px;
+}
+
+.donecount {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin-right: 30px;
+    border:none;
+    cursor: pointer;
+    background-color: grey;
+    color:white;
+}

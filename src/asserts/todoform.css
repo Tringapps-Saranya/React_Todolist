@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TodoForm {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    font-size: 18px;
+    padding:15px;
+    padding-right: 100px;
+}
+
+.notask{
+    border-bottom:1px solid gray; 
+    padding-bottom:20px;
+    color:grey;
+    width:50%;
+
+}
+
+.header{
+    border-bottom:1px solid gray;     
+    padding-bottom:20px;
+    width:50%;
+}
